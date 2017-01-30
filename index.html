@@ -6,15 +6,23 @@
   <title>JS Bin</title>
 </head>
 <!-- Added some styling -->
+
 <style>
-input[type="submit"]{
-  margin: 0 auto;
-  position: relative;
+#button {
+  position: absolute;
   top: 40%;
+  left: 40%;
+  width: 15%;
+  height: 10%;
+  background-color: rgb(234,23, 24);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 5px 5px black;
 }
 </style>
+
 <body id="body">
-<input type="submit" onclick="changeMeColor()" value="Hi">
+<input id="button" type="submit" onclick="changeMeColor()" value="Hi">
 <script type="text/javascript" src="changeBkgcolor.js"></script>
 </body>
 </html>
